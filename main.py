@@ -15,6 +15,8 @@ def talk(text):
     engine.say(text)
 
     engine.runAndWait()
+talk('hello i am alexa. what i can do for you ?')
+
 
 def alexa_command():
     try:
